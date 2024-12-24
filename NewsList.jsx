@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Data } from './Data';
 import { Card, CardMedia, CardContent, Typography, Container, Grid } from '@mui/material';
-
+//card
 const NewsList = () => {
   const [news, setNews] = useState([]);
 
