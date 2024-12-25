@@ -1,0 +1,29 @@
+/* App.css */
+.app-container {
+  padding: 20px; /* Add padding around the whole app */
+  background-color: #f9f9f9; /* Optional background color */
+}
+
+/* Header styles */
+.header {
+  margin-bottom: 20px; /* Space between header and news list */
+}
+
+/* NewsList styles */
+.news-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.news-item {
+  background: #ffffff; /* White background for each news item */
+  margin: 10px 0; /* Margin between news items */
+  padding: 15px; /* Padding inside each news item */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for effect */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.news-item:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
